@@ -40,7 +40,7 @@ function Products() {
             </div>}
 
 
-            {status === 'idle' && <div className='grid xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 font-semibold px-1 text-gray-700'>
+            {status === 'idle' && <div className='grid xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 font-semibold px-1 text-gray-700'> 
                 {
                     products.map(product => (
                         <div key={product.id}
